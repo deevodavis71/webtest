@@ -11,7 +11,7 @@ public class HelloWorldController
     @RequestMapping (path = "/sayHello/{name}")
     public String sayHello (@PathVariable (name = "name") String name)
     {
-        return "Hello, " + name + ".";
+        return "Hello, " + name + "!";
     }
 
     @RequestMapping (path = "/sayGoodbye/{name}")
